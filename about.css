@@ -314,10 +314,15 @@ body {
   gap: 90px;
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 .volun_pictures img {
   width: 326px;
   height: 326px;
   border-radius: 20px;
+}
+
+.volun_pictures p {
+  color: #000000c0;
 }

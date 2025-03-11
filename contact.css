@@ -5,7 +5,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
 /* Original div */
@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
-  background-color: #391d47; /* Ensure navbar matches background */
+  background-color: #391d47;
 }
 
 .logo img {
@@ -152,7 +152,7 @@ body {
 
   .reachouttopheading h1,
   .reachouttopheading h2 {
-    font-size: 40px; /* Adjust for smaller screens */
+    font-size: 40px;
   }
 }
 
@@ -191,7 +191,6 @@ label {
 }
 
 .input {
-  /* width: 450px; */
   padding: 20px 150px;
   border-radius: 8px;
   font-size: 14px;
@@ -226,7 +225,6 @@ label {
   width: 88%;
   border-radius: 30px;
   gap: 30px;
-  /* margin: auto; */
   padding-left: 50px;
   padding-top: 50px;
   padding-right: 50px;
