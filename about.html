@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./public/new logo.jpeg" alt="Site Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./causes.html">Causes</a></li>
+        <li><a href="./project.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li class="dropdown">
+          <a href="#">Pages ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home 2</a></li>
+            <li><a href="#">Causes</a></li>
+            <li><a href="#">Causes Static</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Become a Volunteer</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button class="donate-btn">Donate Now <span>❤️</span></button>
+    </nav>
+
+    <!-- welcome to our purpose -->
+    <div class="outerourpurpose">
+      <div class="ourpurpose">
+        <h1>Welcome to our purpose of making</h1>
+        <h1>the world brighter, together</h1>
+      </div>
+
+      <!-- image div -->
+      <div class="imageflex">
+        <div class="leftsideimage">
+          <img src="./public/our purpose left.jpg" alt="Human images" />
+        </div>
+        <div class="rightsidecontent">
+          <div>
+            <h1>140<span class="makeblue">+</span></h1>
+            <p>
+              This month, we are thrilled to welcome a wonderful group of
+              volunteers to our team.
+            </p>
+          </div>
+          <div>
+            <h1>20<span class="makeblue">K</span></h1>
+            <p>
+              Our new volunteers have made a remarkable human impact this month.
+            </p>
+          </div>
+          <div>
+            <h1>62</h1>
+            <p>
+              The dedication of our volunteers has been extraordinary, resulting
+              in numerous lives saved through their efforts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- The mission -->
+    <div class="outermission">
+      <div class="leftsidemission">
+        <h1>The mission of our organization</h1>
+        <p>
+          Explore our diverse range of programs and initiatives aimed at
+          fostering positive change and making a tangible impact in communities
+          worldwide.
+        </p>
+        <div class="imageh3flex">
+          <div class="avatars">
+            <img
+              src="https://randomuser.me/api/portraits/women/1.jpg"
+              alt="User 1"
+            />
+            <img
+              src="https://randomuser.me/api/portraits/men/1.jpg"
+              alt="User 2"
+            />
+            <img
+              src="https://randomuser.me/api/portraits/women/2.jpg"
+              alt="User 3"
+            />
+            <img
+              src="https://randomuser.me/api/portraits/men/2.jpg"
+              alt="User 4"
+            />
+          </div>
+          <h3>More than 5 million people helped our community</h3>
+        </div>
+      </div>
+
+      <!-- stacked card overflow -->
+      <div class="container">
+        <div class="right-content">
+          <div class="mission-card">
+            <img src="./public/graduate.svg" alt="icon" />
+
+            <h2>Education and training program</h2>
+            <p>
+              Our Education and Training Program is designed to equip
+              individuals with the knowledge, skills, and opportunities they
+              need to thrive.
+            </p>
+          </div>
+          <div class="mission-card">
+            <img src="./public/heart.svg" alt="icon" />
+
+            <h2>Promoting wellness and security</h2>
+            <p>
+              Involves fostering a holistic approach to health and safety,
+              encompassing physical, mental, and emotional well-being while
+              ensuring a secure environment.
+            </p>
+          </div>
+          <!-- <div class="mission-card">
+            <img src="./public/thunder.svg" alt="icon" />
+
+            <h2>Responding swiftly to disasters</h2>
+            <p>
+              Entails immediate and effective action to address and mitigate the
+              impacts of natural or man-made catastrophes.
+            </p>
+          </div> -->
+          <!-- <div class="mission-card">
+            <img src="./public/plane.svg" alt="icon" />
+            <h2>Brighter tomorrow</h2>
+            <p>
+              Refers to a hopeful and optimistic vision for the future,
+              characterized by positive changes and improvements in various
+              aspects of life.
+            </p>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- fd aldf -->
+    </div>
+  </body>
+  <script>
+    // Intersection Observer setup
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5, // Trigger when 50% of the card is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+        } else {
+          entry.target.classList.remove("active");
+        }
+      });
+    }, observerOptions);
+
+    // Observe all mission cards
+    document.querySelectorAll(".mission-card").forEach((card) => {
+      observer.observe(card);
+    });
+  </script>
+</html>
