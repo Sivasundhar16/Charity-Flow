@@ -317,7 +317,7 @@ body {
   margin-bottom: 100px;
 }
 
-.volun_pictures img {
+.volumn_pictures {
   width: 326px;
   height: 326px;
   border-radius: 20px;
@@ -325,4 +325,58 @@ body {
 
 .volun_pictures p {
   color: #000000c0;
+}
+
+.facebooklogo {
+  width: auto;
+  height: 45px;
+  transition: background-color 100ms linear;
+}
+
+.facebooklogo:hover {
+  background-color: #b156b1;
+  border-radius: 10px;
+}
+
+.instagramlogo {
+  width: auto;
+  height: 42px;
+  transition: background-color 100ms linear;
+}
+
+.instagramlogo:hover {
+  background-color: #b156b1;
+  border-radius: 10px;
+}
+
+.twitterlogo {
+  width: auto;
+  height: 42px;
+  transition: background-color 100ms linear;
+}
+
+.twitterlogo:hover {
+  background-color: #b156b1;
+  border-radius: 10px;
+}
+
+.linkedinlogo {
+  width: auto;
+  height: 42px;
+  transition: background-color 100ms linear;
+}
+
+.linkedinlogo:hover {
+  background-color: #b156b1;
+  border-radius: 10px;
+}
+
+.youtubelogo {
+  width: auto;
+  height: 45px;
+  transition: background-color 100ms linear;
+}
+.youtubelogo:hover {
+  background-color: #b156b1;
+  border-radius: 10px;
 }
