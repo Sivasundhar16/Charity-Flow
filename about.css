@@ -378,7 +378,9 @@ body {
 .forlogo_inside {
   position: relative;
   overflow: hidden;
+  display: inline-block; /* Keeps the image and logo together */
 }
+
 .volumn_pictures {
   width: 326px;
   height: 326px;
@@ -386,7 +388,13 @@ body {
   display: block;
 }
 
-/* .go_insidelogo a {
+.go_insidelogo {
   position: absolute;
-  z-index: 100;
-} */
+  bottom: -15%; /* Position the logo slightly below the image */
+  left: 5%;
+  transition: bottom 1s ease; /* Smooth transition when the image is hovered */
+}
+
+.forlogo_inside:hover .go_insidelogo {
+  bottom: 10%; /* Moves the logo upwards when hovering */
+}
