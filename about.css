@@ -311,10 +311,9 @@ body {
 
 .volun_pictures {
   display: flex;
-  gap: 90px;
-  justify-content: center;
   margin-top: 40px;
   margin-bottom: 100px;
+  justify-content: space-around;
 }
 
 .volun_pictures p {
@@ -382,8 +381,8 @@ body {
 }
 
 .volumn_pictures {
-  width: 326px;
-  height: 326px;
+  width: auto;
+  height: auto;
   border-radius: 20px;
   display: block;
 }
