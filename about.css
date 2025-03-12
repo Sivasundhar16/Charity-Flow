@@ -467,6 +467,7 @@ body {
   align-items: center;
   background-color: #2fffaf;
   margin-top: 700px;
+  position: relative;
 }
 
 .ourcommunityouter h1:nth-child(1) {
@@ -481,4 +482,16 @@ body {
   font-size: 200px;
   margin-top: 1px;
   color: #ffd166;
+}
+
+.makeround {
+  border-radius: 50%;
+}
+
+.firstcommunity {
+  position: absolute;
+  top: 5%;
+  left: 23%;
+  width: 80px;
+  height: 80px;
 }
