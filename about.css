@@ -317,12 +317,6 @@ body {
   margin-bottom: 100px;
 }
 
-.volumn_pictures {
-  width: 326px;
-  height: 326px;
-  border-radius: 20px;
-}
-
 .volun_pictures p {
   color: #000000c0;
 }
@@ -380,3 +374,19 @@ body {
   background-color: #b156b1;
   border-radius: 10px;
 }
+
+.forlogo_inside {
+  position: relative;
+  overflow: hidden;
+}
+.volumn_pictures {
+  width: 326px;
+  height: 326px;
+  border-radius: 20px;
+  display: block;
+}
+
+/* .go_insidelogo a {
+  position: absolute;
+  z-index: 100;
+} */
