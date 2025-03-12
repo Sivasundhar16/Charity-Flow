@@ -140,7 +140,7 @@ body {
 .outeroriginaldiv {
   background-color: #391d47;
   position: relative;
-  min-height: 150vh;
+  min-height: 100vh;
   margin-bottom: 100px;
 }
 
@@ -252,8 +252,8 @@ body {
   font-weight: bold;
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  width: 500px;
-  margin-left: 40px;
+  width: 600px;
+  margin-left: 5%;
 }
 
 /* charity flow */
@@ -261,12 +261,12 @@ body {
 .charityflex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  /* justify-content: space-between; */
+  gap: 30px;
   padding: 40px;
-  max-width: 1200px;
+  max-width: 90%;
   margin: auto;
-  flex-wrap: wrap; /* Ensures responsiveness */
+  flex-wrap: wrap;
 }
 
 /* Left Side */
@@ -277,7 +277,8 @@ body {
 }
 
 .leftsideimage img {
-  width: 100%;
+  width: 80%;
+  height: auto;
   border-radius: 20px;
 }
 
@@ -394,18 +395,23 @@ body {
 
 .supportour {
   display: flex;
-  margin-left: 75px;
-  gap: 50px;
+  width: 90%;
+  /* gap: 10%; */
   align-items: center;
+  justify-content: center;
   overflow: hidden;
+  /* background-color: lightcoral; */
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .leftsidesupport {
-  width: 300px;
+  margin-left: 10%;
 }
 
 .leftsidesupport h1 {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .leftsidesupportbutton {
@@ -476,7 +482,7 @@ body {
 
 /* your donation */
 .donation-banner {
-  width: 1100px;
+  width: 85%;
   height: 320px;
   background-color: #955d99;
   border-radius: 15px;
@@ -496,6 +502,7 @@ body {
   font-size: 60px;
   margin: 0;
   font-weight: 600;
+  width: 700px;
 }
 
 .text-section .highlight {
@@ -710,7 +717,7 @@ body {
   margin-top: 100px;
   position: relative;
   width: 100%;
-  height: 800px;
+  height: 900px;
   margin-top: 500px;
   display: flex;
   justify-content: center;
@@ -739,6 +746,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  bottom: 29%;
 }
 
 .makechange {
@@ -748,10 +756,10 @@ body {
 }
 
 .oursupporters {
-  top: 150px;
   display: flex;
   align-items: center;
   gap: 30px;
+  bottom: 18%;
 }
 
 .custom-line {
