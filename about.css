@@ -495,3 +495,11 @@ body {
   width: 80px;
   height: 80px;
 }
+
+.secondcommunity {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  right: 29%;
+  top: 15%;
+}
