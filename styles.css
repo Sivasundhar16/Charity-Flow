@@ -118,7 +118,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .top-bar {
     flex-direction: column;
     text-align: center;
@@ -136,7 +136,7 @@ body {
   .dropdown-menu {
     position: relative;
   }
-}
+} */
 .outeroriginaldiv {
   background-color: #391d47;
   position: relative;
@@ -1036,7 +1036,70 @@ body {
 }
 
 @media (max-width: 425px) {
+  .makeoverflowhidden {
+    overflow-x: hidden;
+  }
+
   .topdiv {
+    display: flex;
     flex-direction: column;
+    gap: 1px;
+  }
+
+  .makehidden {
+    opacity: 0;
+  }
+
+  .nav-links li:nth-child(5) {
+    opacity: 0;
+  }
+
+  .helpus {
+    font-size: 30px;
+    margin-top: 1px;
+    width: 395px;
+  }
+
+  .helpuspara {
+    width: 395px;
+    margin-left: 30px;
+  }
+
+  .helpflex {
+    flex-direction: column;
+  }
+
+  .makegridresponsive {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 50px;
+  }
+
+  .firstchild {
+    height: 150px;
+    width: 150px;
+    position: static;
+  }
+  .secondchild {
+    height: 150px;
+    width: 150px;
+    position: static;
+  }
+  .thridchild {
+    height: 150px;
+    width: 150px;
+    position: static;
+  }
+  .fourthchild {
+    height: 150px;
+    width: 150px;
+    position: static;
+  }
+
+  .afternavcon {
+    font-size: 20px;
   }
 }
