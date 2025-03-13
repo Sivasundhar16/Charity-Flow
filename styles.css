@@ -1035,11 +1035,10 @@ body {
   cursor: pointer;
 }
 
+.makeoverflowhidden {
+  overflow-x: hidden;
+}
 @media (max-width: 425px) {
-  .makeoverflowhidden {
-    overflow-x: hidden;
-  }
-
   .topdiv {
     display: flex;
     flex-direction: column;
@@ -1101,5 +1100,7 @@ body {
 
   .afternavcon {
     font-size: 20px;
+    margin: auto;
+    width: 350px;
   }
 }
